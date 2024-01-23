@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AddTwo",
+            "request": "launch",
+            "mainClass": "AddTwo",
+            "projectName": "hw01-reserves-GaiaSofer_a0c159ce"
+        },
+        {
+            "type": "java",
+            "name": "Coins",
+            "request": "launch",
+            "mainClass": "Coins",
+            "projectName": "hw01-reserves-GaiaSofer_a0c159ce"
+        },
+        {
+            "type": "java",
+            "name": "GenThree",
+            "request": "launch",
+            "mainClass": "GenThree",
+            "projectName": "hw01-reserves-GaiaSofer_a0c159ce"
+        },
+        {
+            "type": "java",
+            "name": "GenThreeTest",
+            "request": "launch",
+            "mainClass": "GenThreeTest",
+            "projectName": "hw01-reserves-GaiaSofer_a0c159ce"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Triangle",
+            "projectName": "hw01-reserves-GaiaSofer_a0c159ce"
+        }
+    ]
+}
