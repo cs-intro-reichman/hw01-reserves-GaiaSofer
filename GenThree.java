@@ -6,13 +6,10 @@ public class GenThree {
 	public static void main(String[] args) {
 	// Computes the  equation ax + b = c	
 
-	double a = Double.parseDouble(args[0]);
-	double b = Double.parseDouble(args[1]);
-	double c = Double.parseDouble(args[2]);	
-
-		double equation = ( (c - b) / a );
-
-		System.out.println(equation);
+	int a = Integer.parseInt(args[0]);
+	int b = Integer.parseInt(args[1]);
+	
+	System.out.println((int) (Math.random() * ( b - a ) + a));
 
 	}
 }
