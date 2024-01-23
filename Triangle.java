@@ -5,15 +5,14 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-		// a^2 + b^2 = c^2
-
+	//a^2 + b^2 = c^2
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
 		int c = Integer.parseInt(args[2]);
 
-		int lef_side = ((a * a) + (b * b));
-		int right_side = (c * c);
-		boolean answer = (lef_side == right_side);
+		int leftSide = (a * a) + (b * b);
+		int rightSide = c * c;
+		boolean answer = (leftSide == rightSide);
 
 		System.out.println(a + ", " + b + ", " + c + ": " + answer);
 	}
