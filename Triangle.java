@@ -3,17 +3,17 @@
  * This is known as the Triangle Inequality Theorem. 
  * Write a program that tests if three given integers form a triangle.
  */ 
-public class Triangle {
+public class Triangle {	
 	public static void main(String[] args) {
-	//a^2 + b^2 = c^2
-		int a = Integer.parseInt(args[0]);
-		int b = Integer.parseInt(args[1]);
-		int c = Integer.parseInt(args[2]);
-
-		int leftSide = (a * a) + (b * b);
-		int rightSide = c * c;
-		boolean answer = (leftSide == rightSide);
-
-		System.out.println(a + ", " + b + ", " + c + ": " + answer);
+			int a = Integer.parseInt(args[0]);
+			int b = Integer.parseInt(args[1]);
+			int c = Integer.parseInt(args[2]);
+	
+			int leftSide2 = (a * a) + (b * b);
+			int rightSide2 = c * c;
+			boolean answer = (leftSide2 == rightSide2);
+	
+			System.out.println(a + ", " + b + ", " + c + ": " + answer);
+		}
 	}
-}
+	
